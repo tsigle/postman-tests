@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "80025ee6-6a60-43e7-b6f7-51d592d5cacd",
+		"name": "pingdirectory-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "httpbin.org get",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "6b779797-6d95-4a3d-a022-b200fc7b8a82",
+						"exec": [
+							"pm.test(\"httpbin.org get test\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://httpbin.org/get",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
