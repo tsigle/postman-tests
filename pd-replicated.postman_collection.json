@@ -1010,13 +1010,13 @@
 		{
 			"id": "af4dee9c-864a-47bd-8483-9157b8f100db",
 			"key": "pd_write_hostname",
-			"value": "{{pd_hostname}}-0",
+			"value": "{{pd_hostname}}-0.pingdirectory",
 			"type": "string"
 		},
 		{
 			"id": "c19d1649-ab00-49f8-9bac-8518e8aeac73",
 			"key": "pd_read_hostname",
-			"value": "{{pd_hostname}}-1",
+			"value": "{{pd_hostname}}-1.pingdirectory",
 			"type": "string"
 		},
 		{
