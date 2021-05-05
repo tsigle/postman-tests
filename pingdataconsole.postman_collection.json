@@ -25,11 +25,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://pingdataconsole/console",
+					"raw": "https://pingdataconsole:8443/console",
 					"protocol": "https",
 					"host": [
 						"pingdataconsole"
 					],
+					"port": "8443",
 					"path": [
 						"console"
 					]
