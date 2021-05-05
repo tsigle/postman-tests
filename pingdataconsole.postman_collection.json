@@ -25,18 +25,26 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://pingdataconsole:8443/console",
+					"raw": "https://pingdataconsole:{{PD_CONSOLE_PRIVATE_PORT_HTTPS}}/console",
 					"protocol": "https",
 					"host": [
 						"pingdataconsole"
 					],
-					"port": "8443",
+					"port": "{{PD_CONSOLE_PRIVATE_PORT_HTTPS}}",
 					"path": [
 						"console"
 					]
 				}
 			},
 			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "9bebf2b0-59db-440b-bcc2-e58d7dca657e",
+			"key": "PD_CONSOLE_PRIVATE_PORT_HTTPS",
+			"value": "443",
+			"type": "string"
 		}
 	]
 }
