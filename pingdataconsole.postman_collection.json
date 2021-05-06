@@ -43,7 +43,7 @@
 		{
 			"id": "9bebf2b0-59db-440b-bcc2-e58d7dca657e",
 			"key": "PD_CONSOLE_PRIVATE_PORT_HTTPS",
-			"value": "443",
+			"value": "8443",
 			"type": "string"
 		}
 	]
