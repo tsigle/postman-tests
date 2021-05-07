@@ -1,0 +1,22 @@
+{
+        "id": "9b464ada-d685-4415-8f5a-8ed2c3970d6a",
+        "name": "helm-testing",
+        "_postman_variable_scope": "environment",
+        "_postman_exported_at": "2021-05-07T11:28:26",
+        "_postman_exported_using": "helm-testing",
+        "values": [
+
+{
+  "key": "PD_CONSOLE_PRIVATE_HOSTNAME",
+  "value": "pingdataconsole",
+  "enabled": "true"
+}
+,
+{
+  "key": "PD_CONSOLE_PRIVATE_PORT_HTTPS",
+  "value": "8443",
+  "enabled": "true"
+}
+]}
+
+Events:  <none>
